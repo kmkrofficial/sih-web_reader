@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "Easy to Read",
+  "description": "Converts Text to Speech",
+  "version": "1.0.0",
+  "icons": { "128": "index.png" },
+  "browser_action": {
+    "default_icon": "index.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab"]
+}
